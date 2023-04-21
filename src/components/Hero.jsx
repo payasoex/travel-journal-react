@@ -2,7 +2,10 @@ import React from "react";
 
 function Hero() {
     return (
-        <h1>Hero</h1>
+        <div className="hero">
+            <img src="src/assets/img/travel-journal-img.svg" className="hero--img"/>
+            <h3 className="hero--title">my travel journal</h3>
+        </div>
     )
 }
 
